@@ -15,7 +15,7 @@ body {
 
 .gallery-container,
 .thank-you-text,
-.symbolism-text, 
+.symbolism-text,
 .art-comp-materials,
 .welcome-message-container,
 .info-section {
@@ -30,9 +30,8 @@ body {
 .art-comp-history,
 .art-comp-materials,
 .symbolism-text,
-.thank-you-text,
-.thank-you-image {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+.thank-you-text {
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.15);
 }
 
 

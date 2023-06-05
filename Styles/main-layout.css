@@ -15,7 +15,7 @@
 }
 
 .banner-image {
-    height: 400px;
+    height: 500px;
     width: 1650px;
     border: 1px solid rgb(38, 136, 38);
     border-radius: 3px;
@@ -47,20 +47,49 @@
     text-align: center;
     display: flex;
     align-items: center;
-    border-right: 2px solid darkgreen; 
+    border-right: 2px solid rgb(75, 135, 214); 
     
 }
 
 .welcome-image {
-    margin-left: 45px;
+    width: 350px;
 }
+
+@media (max-width: 1000px) {
+    .welcome-image {
+      margin-left: 200px;
+    }
+  }
+
+  @media (min-width:1001px) and (max-width: 1500px) {
+    .welcome-image {
+      margin-left: 100px;
+    }
+  }
+
+  @media (min-width:1501px) {
+    .welcome-image {
+      margin-left: 300px;
+    }
+  }
+
+@media (max-width: 1000px) {
+    .welcome-message-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (min-width:1001px) {
+    .welcome-message-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
 
 .info-section {
     padding: 10px;
     margin: 10px 30px 10px 30px;
     display: grid;
-    grid-template-columns: 1fr 20px 1fr;
-    height: 450px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .history-section {
@@ -84,7 +113,7 @@
 .startup-section {
     display: flex;
     align-items: center;
-    border-left: 2px solid darkgreen;
+    border-left: 2px solid rgb(75, 135, 214);
 
 }
 
@@ -96,6 +125,19 @@
 .startup-image {
     width: 500px;
 }
+
+@media (max-width: 1400px) {
+    .info-section {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (min-width:1401px) {
+    .info-section {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
 
 .bead-work-divider-container {
     margin-top: 10px;
@@ -109,14 +151,10 @@
 .page-divider-container {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
 }
 
 .page-divider {
-    width: 600px;
-    height: 60px;
-    
+    width: 500px;
 }
 
 .art-composition {
@@ -172,6 +210,19 @@
     padding-top: 10px;
 }
 
+@media (max-width: 1400px) {
+    .art-composition {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (min-width:1401px) {
+    .art-composition {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+
 .gallery-container {
     margin: 40px 50px 20px 50px;
 }
@@ -188,6 +239,39 @@
 .gallery-images {
   width: 400px;
 }
+
+@media (max-width:1099px) {
+    .gallery-images {
+      width: 500px;
+
+    }
+  }
+
+@media (max-width:1099px) {
+    .gallery-section {
+      grid-template-columns: 1fr;
+      width: 550px;  
+    }
+  }
+
+@media (min-width: 1100px) and (max-width:1424px) {
+    .gallery-section {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 1425px) and (max-width:1829px) {
+    .gallery-section {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  @media (min-width:1830px) {
+    .gallery-section {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
 
 .final-section {
     margin: 40px 50px 20px 50px;
@@ -218,21 +302,50 @@
     font-size: 20px;
 }
 
+@media (max-width:1099px) {
+    .symbolism-text {
+      height: 100px; 
+    }
+  }
+
+  @media (max-width:1099px) {
+    .thank-you-image {
+      margin-left: 200px; 
+    }
+  }
+
+@media (max-width:1099px) {
+    .final-section {
+      grid-template-columns: 1fr;
+      
+    }
+  }
+
+@media (min-width: 1100px) {
+    .final-section {
+      grid-template-columns: 1fr 300px 1fr;
+    }
+  }
+
 .footer {
     background-color:rgb(75, 135, 214);
     border-radius: 2px;
-    padding: 10px 30px 6px 30px;
-    height: 100px;
-    margin: auto 5px 0px 5px;
+    padding: 10px 30px 10px 30px;
+    height: 250px;
+    margin: 30px 5px 0px 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 
 .commission-info {
-    text-align: left;
-    font-size: 19px;
-    padding-top: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    background-color:rgba(102, 162, 241, 0.473);
+    border-radius: 5px;
+    box-shadow: 5px 5px 18px rgba(58, 103, 161, 0.774);
 }
 
 .contact-info-container {
@@ -241,3 +354,9 @@
     text-align: right;
     font-size: 18px;
 }
+
+@media (max-width:1099px) {
+    .footer {
+      margin-bottom: 100px;
+    }
+  }
