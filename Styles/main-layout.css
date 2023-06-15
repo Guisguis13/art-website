@@ -106,6 +106,12 @@
     grid-template-columns: 1fr 1fr;
 }
 
+  @media (max-width:1001px) {
+      .info-section {
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+
 .history-section {
     display: flex;
     align-items: center;
