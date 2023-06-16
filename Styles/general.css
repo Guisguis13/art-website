@@ -1,5 +1,5 @@
 body {
-    height: 4700px;
+    min-height: 4700px;
     z-index: 0;
     background-color: rgba(59, 160, 146, 0.55);
     border: 5px dotted rgba(113, 185, 253, 0.418);
