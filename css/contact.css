@@ -191,6 +191,10 @@ ul a:visited {
   margin: 0px 20px;
 }
 
+.contact-list li {
+  padding-top: 10px;
+}
+
 .caveat {
   text-align: center;
   background-color: rgba(252, 247, 242, 0.37);
